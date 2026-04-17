@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Multilingual Manga Project</title>
+  <style>
+    body { font-family: Arial; margin:0; background:#f4f4f4; }
+
+    header {
+      background:#111;
+      color:white;
+      padding:30px;
+      text-align:center;
+    }
+
+    .grid {
+      display:grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap:20px;
+      max-width:1000px;
+      margin:40px auto;
+      padding:0 20px;
+    }
+
+    .card {
+      background:white;
+      padding:20px;
+      border-radius:10px;
+      text-decoration:none;
+      color:black;
+      transition:0.2s;
+    }
+
+    .card:hover {
+      transform:scale(1.03);
+    }
+
+    footer {
+      text-align:center;
+      padding:20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Multilingual Manga Project</h1>
+  <p>漫画 × 翻訳 × 語学学習</p>
+</header>
+
+<div class="grid">
+
+  <a class="card" href="manga.html">
+    <h2>📖 Manga</h2>
+    <p>原作漫画を見る</p>
+  </a>
+
+  <a class="card" href="translation.html">
+    <h2>🌍 Translation</h2>
+    <p>英語・欧州言語版</p>
+  </a>
+
+  <a class="card" href="explanation.html">
+    <h2>🧠 Translation Notes</h2>
+    <p>翻訳の解説・文化差</p>
+  </a>
+
+  <a class="card" href="blog.html">
+    <h2>📘 Language Blog</h2>
+    <p>語学メモ・学習記録</p>
+  </a>
+
+</div>
+
+<footer>
+  <p>© Your Project</p>
+</footer>
+
+</body>
+</html>
